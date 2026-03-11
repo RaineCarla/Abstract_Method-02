@@ -94,4 +94,4 @@ Este projeto foi desenvolvido como atividade prática da disciplina de Padrões 
 
 👩‍💻 Autor:
 
-Projeto desenvolvido por Carla para fins de estudo e aprendizado em Programação Orientada a Objetos.
+Projeto desenvolvido por Raine Carla para fins de estudo e aprendizado em Programação Orientada a Objetos.
