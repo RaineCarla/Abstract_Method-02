@@ -24,31 +24,31 @@ Esse padrão permite criar objetos relacionados sem depender diretamente das cla
 🏗 Estrutura do Projeto:
 O projeto foi dividido em pacotes para organizar melhor as responsabilidades.
 
-Fabrica
- ├─ FornecedorFactory
- ├─ FornecedorNacionalFactory
- └─ FornecedorInternacionalFactory
+Fabrica:
+ FornecedorFactory
+ FornecedorNacionalFactory
+ FornecedorInternacionalFactory
 
-Interfaces
- ├─ Pagamento
- ├─ Frete
- └─ NotaFiscal
+Interfaces:
+ Pagamento
+ Frete
+ NotaFiscal
 
-Nacional
- ├─ PagamentoNacional
- ├─ FreteNacional
- └─ NotaFiscalNacional
+Nacional:
+ PagamentoNacional
+ FreteNacional
+ NotaFiscalNacional
 
-Internacional
- ├─ PagamentoInternacional
- ├─ FreteInternacional
- └─ NotaFiscalInternacional
+Internacional:
+ PagamentoInternacional
+ FreteInternacional
+ NotaFiscalInternacional
 
-Service
- └─ CheckoutService
+Service:
+ CheckoutService
 
-Main
- └─ Classe de execução do sistema
+Main:
+ Classe de execução do sistema
  
 ⚙️ Funcionamento:
 
