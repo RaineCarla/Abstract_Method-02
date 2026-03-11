@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import Fabrica.FornecedorInternacionalFactory;
 import Fabrica.FornecedorNacionalFactory;
@@ -10,7 +10,7 @@ public class Main {
 
         String pedidoId = "PED-10";
         double valorProdutos = 99.0;
-        double pesoKg = 3.0;
+        double pesoKg = 2.0;
         String cepDestino = "58000-000";
 
 
@@ -34,13 +34,7 @@ public class Main {
                 pedidoId,
                 valorProdutos,
                 pesoKg,
-                cepDestino
-        );
-=======
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
->>>>>>> eeb5bbc87852d1547f37814088bf3f62d598a50c
+                cepDestino);
+
     }
 }
